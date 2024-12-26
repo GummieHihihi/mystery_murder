@@ -1,0 +1,6 @@
+event_id,trigger_type,trigger_value,action,sheet_name,append_only,content,evidence,mood
+concert_reveal,keyword,The Concert,reveal_secret,,true,The painting of 'The Concert' in the study is actually just a reproduction. The original was stolen years ago and has never been recovered.,Found proof about the painting,suspicious
+green_nervous,time,10,change_mood,,true,,,nervous
+update_green,keyword,The Concert,update_character,alexander_green_phase2.csv,false,Dr. Green becomes visibly uncomfortable when discussing the painting,,agitated
+evelyn_defensive,keyword,The Concert,update_character,evelyn_phase2.csv,false,Evelyn becomes defensive about the painting discussion,,hostile
+scene_update,keyword,The Concert,update_character,crime_scene_phase2.csv,true,The placard near the painting clearly states it's a reproduction of the stolen original,,
